@@ -27,7 +27,7 @@ services:
       - db
 #Frontend Section
   Frontend:
-    build: ./Frontend
+    build: ./frontend
     ports:
       - "2001:2000"
     environment:

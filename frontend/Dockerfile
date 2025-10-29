@@ -9,6 +9,6 @@ RUN npm install
 #copy the remaining programm files to the container
 COPY . .
 #expose the port
-EXPOSE 2000
+EXPOSE 8000
 #run the backend application- this is on React
 CMD [ "npm", "start" ]
